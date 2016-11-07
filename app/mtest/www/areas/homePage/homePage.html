@@ -1,0 +1,124 @@
+<!--下拉刷新-->
+<!--<ion-content overflow-scroll="true" >-->
+  <!--<ion-refresher-->
+    <!--pulling-text="下拉刷新..."-->
+    <!--on-refresh="doRefresh()">-->
+  <!--</ion-refresher>-->
+  <!--<ion-list>-->
+    <!--<ion-item >121111111</ion-item>-->
+    <!--<ion-item >121111111</ion-item>-->
+    <!--<ion-item >121111111</ion-item>-->
+  <!--</ion-list>-->
+<!--</ion-content>-->
+<!--滚动-->
+<ion-content >
+
+  12111111111br
+  <br>
+  1212
+  <br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212<br>
+  1212
+</ion-content>
+
+<ion-view view-title="首页" cache-view="false">
+  <ion-header-bar align-title="center">
+    <!--标题居中，需要加标题属性class="title"-->
+    <h2 class="title">头部</h2>
+  </ion-header-bar>
+  <ion-content >
+
+<ion-list>
+  <ion-item>
+    <!--左滑-->
+    <ion-option-button class="assertive-bg">删除</ion-option-button>
+    <ion-option-button class="energized-bg">标为未读</ion-option-button>
+    <ion-option-button class="balanced-bg">置顶</ion-option-button>
+  </ion-item>
+  <!--复选框-->
+<ion-item>
+  被选中的是{{checked}}
+<ion-checkbox ng-model="checked">复选框1111</ion-checkbox>
+<ion-checkbox >复选框2222</ion-checkbox>
+<ion-checkbox>复选框3333</ion-checkbox>
+</ion-item>
+  <!--遍历生成单选选项-->
+  <ion-item>
+    被选中的是{{choice.choice}}
+    <ion-radio ng-repeat = "item in radioData"  ng-model="choice.choice" ng-value = "item.value">{{item.name}}</ion-radio>
+  </ion-item>
+
+  <!--开关-->
+  <ion-item>
+    {{kg}}
+    <ion-toggle ng-model="kg">开关</ion-toggle>
+  </ion-item>
+</ion-list>
+    12111111111br
+    <br>
+    1212
+    <br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212<br>
+    1212
+  </ion-content>
+</ion-view>
